@@ -1288,8 +1288,9 @@ MonoBehaviour:
   roomNumber: 0
   riddleText: {fileID: 3503811111632481626}
   riddleIndex:
-  - {fileID: 2800000, guid: 833ddaf40d3157d469b9cf9ca36059a5, type: 3}
-  - {fileID: 2800000, guid: bee2baa6ac4885c4a93864728ad809ac, type: 3}
-  - {fileID: 2800000, guid: c3f4c49675d619a409edd297ef0f9db7, type: 3}
-  - {fileID: 2800000, guid: 5932d80e43fc8ad41a6292c4eb321a60, type: 3}
+  - {fileID: 2800000, guid: ac038bc58280c62458b7a2cdb4f51356, type: 3}
+  - {fileID: 2800000, guid: c2c15ecef33083247a0df24d8e4921a8, type: 3}
+  - {fileID: 2800000, guid: 7b5e5411404c46744bffa1056d5c4b56, type: 3}
+  - {fileID: 2800000, guid: b4012c73ba7d9cf41bb2988cbf5a1a15, type: 3}
+  buttonTexture: {fileID: 2800000, guid: a6c25d95a9e52004a8f78e5579b865d6, type: 3}
   RiddlePopUp: {fileID: 3503811111283134679}

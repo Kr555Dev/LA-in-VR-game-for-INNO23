@@ -9,9 +9,10 @@ public class Riddle : MonoBehaviour{
     [SerializeField] public int index;
     [SerializeField] public int roomNumber;
     [SerializeField] public TMP_Text riddleText;
-    public Texture[] riddleIndex;
+    public Texture[] riddleIndex = new Texture[4];
+    public Texture buttonTexture;
 
-    private GameObject[] riddles;
+    private GameObject[] riddles = new GameObject[4];
     private GameObject riddle;
     public Dictionary<int, string[]> roomRiddles;
     
@@ -20,19 +21,22 @@ public class Riddle : MonoBehaviour{
     public static Riddle instance;
 
     void Start(){
-        riddleIndex = new Texture[4];
+        //riddleIndex = new Texture[4];
         if (!instance) instance = this;
         RiddlePopUp.enabled = false;
         riddles = new GameObject[4];    // Hardcoded value. Remove later
         // get all the children of the parent
-        int j = 0;
+        //int j = 0;
         for (int i = 0; i < riddlesPerSet; i++){
             if (transform.GetChild(i).CompareTag("Riddle")){
-                riddles[j] = transform.GetChild(i).gameObject;
-                riddles[j].GetComponent<Renderer>().material.SetTexture("_MainTex", riddleIndex[j]);
-                j++;
+                riddles[i] = transform.GetChild(i).gameObject;
+                riddles[i].GetComponent<Renderer>().material.SetTexture("_MainTex", riddleIndex[i]);
+                riddles[i].GetComponent<Renderer>().material.SetTextureScale("_MainTex", new Vector2(-1,-1));
+                //j++;
             }
         }
+        transform.GetChild(4).GetComponent<Renderer>().material.SetTexture("_MainTex", buttonTexture);
+        transform.GetChild(4).GetComponent<Renderer>().material.SetTextureScale("_MainTex", new Vector2(-1, -1));
     }
 
     void Update(){

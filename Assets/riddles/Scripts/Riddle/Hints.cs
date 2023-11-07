@@ -15,27 +15,27 @@ public class Hints : MonoBehaviour{
             "I'm greater than the first 3 digit prime number by 8 units. Find me on."
          });//109
         riddlesForEachRoom.Add(2, new string[3]{
-            "50,68,90,?,146. The ? is the room you should go.",
-            "104,116,120,128. The odd one out will take you to your room.",
-            "My last 2 digits are the exponents of two single digits with my first digit being the start of any counting. Guess me on."});//116
+            "Subtract the sqaure of first prime number from the total number of deliveries per innings in an T20 match. Can you tell my value?",
+            "There are two numbers between 1 to 10 (both inclusive) whose absolute difference is 6. And sum of squares of those two numbers is greater than 100. Find their sum of squares",
+            "The sum of all my digits is equal to the whole cube of the sum of first 2 digits. And my first two digits are equal. Can you guess me?"});//116
         riddlesForEachRoom.Add(3, new string[3]{
-            "I am 3 digit number,First digit from left is first prime number,Last digit is double of first digit,Middle one  is neither positive nor negative. What am i?",
-            "There is a pool where the number of flowers gets doubled every day. The pool was filled up by 22 day. Which day was the pool quarter filled(Answer is first two digit)?If you add the digit of my square root by itself, you will get me. Guess the digit(Answer is last digit)?",
-            "102, ? , 306 , 408. The ? is the room to find."});//204
+            "I am 2 less than the total number of bones in an adult human body. What am i?",
+            "8,11,14,17... Substract 11 from the sum of first 10 numbers of this series to obtain the answer",
+            "I am the product of the atmoic mass number of Carbon and atmoic number of a green colored poisonous gas. Find me."});//204
         riddlesForEachRoom.Add(4, new string[3]{
-            "I am 3 digit number. First digit from left is first prime number.Last digit is 5 more than first digit.Middle one is the first natural number. Guess me out.",
-            "My first two digits combined are thrice of the unit digit. If you remove one letter from my unit digit, you will get the word “even”. Guess me?",
-            "The hundredth and one’s digit is the cube of 3 respectively. The middle number is one less than the hundredth digit."
+            "I am the product of the atomic number of most abundant gas on earth and the atmoic mass number of the element at period 3 and group 15. Guess me?",
+            "Start with 1, Add 3 to it, Multiply by 20, Add 12, Multiply by the first odd prime number and finally subtract 59. Did you find me?",
+            "Sum of my digits is 10. And product of all digits is 14. If I am between 200 and 300, can you calculate me?"
         });//217
         riddlesForEachRoom.Add(5, new string[3]{
-            "I am 3 digit number. First digit from left is first odd  prime number.Last digit is 2 less than First digit.Middle one is neither positive nor negative",
-            "2,10,?,68. My first two digits are the missing number in the series while my last digit is the start of any counting. Guess me.",
-            "I am a concept that marks a revolution in data storage, My units digit is the base of binary code, My second digit is false in binary, My hundreds digit is the first odd prime number. What number am I?"
+            "Imagine there is a ODI match between India and Pakistan. India balls and gives only 1 extra run of wide. After the completion of one innings, How many total number of times was the ball bowled",
+            "I am xyz, where x = tan^2(c/3d), y = sin0, z = tan(c/4d), where c -> circumference of a circle and d-> diameter of that circle.",
+            "Sehwag had scored a triple century against Pakistan, in 2004. The correct room no. is 8 runs less than his score in that match." //309
         });//301
         riddlesForEachRoom.Add(6, new string[3]{
-            "Remove 1 from my first digit and you will get a perfect cube. Combine my last 2 digits and you will get a perfect square. Guess me out.",
-            "80,160,?,640. Remove 4 from the missing number to get your destination.",
-            "I am a three-digit number, and my digits add up to 10. And by last digit is twice my first digit. I am greater than 300. What am I?"
+            "I am triangle whose base is 79 units and height is third power of 2, Find my area to reach your next room no.",
+            "3,14,39,84,155,?  Add 58 to the missing number in the sequence to get the answer",
+            "In a set of equations : 2x + y = 418 and 2y - x = 316. Find the sum of both unknown variables."
         });//316
     }
 }
